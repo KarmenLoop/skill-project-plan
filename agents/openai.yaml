@@ -1,0 +1,4 @@
+interface:
+  display_name: "KarmenLoop Project Plan"
+  short_description: "Project Plan with reproducible local checks"
+  default_prompt: "Use $karmen-project-plan to turn these deliverables into a dependency-aware implementation plan."

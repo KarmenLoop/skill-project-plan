@@ -1,0 +1,29 @@
+{
+  "tasks": [
+    {
+      "id": "a",
+      "title": "Inspect interface",
+      "duration": 1,
+      "depends_on": [],
+      "acceptance": "Contract documented"
+    },
+    {
+      "id": "b",
+      "title": "Implement adapter",
+      "duration": 3,
+      "depends_on": [
+        "a"
+      ],
+      "acceptance": "Example request succeeds"
+    },
+    {
+      "id": "c",
+      "title": "Validate failure path",
+      "duration": 2,
+      "depends_on": [
+        "b"
+      ],
+      "acceptance": "Timeout and cancellation verified"
+    }
+  ]
+}
