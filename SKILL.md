@@ -3,7 +3,7 @@ name: karmen-project-plan
 description: "Build a dependency-aware plan with measurable acceptance criteria. Use when a user needs to break a project into ordered, verifiable tasks."
 metadata:
   author: KarmenLoop
-  version: "0.1.0"
+  version: "0.2.0"
 ---
 
 # Project Plan
