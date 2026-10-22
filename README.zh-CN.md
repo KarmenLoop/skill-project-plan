@@ -4,7 +4,7 @@
 
 先看哪些任务能开始、哪条依赖链决定整体结束时间。输入任务、工时、前置条件和验收标准，得到有序计划与关键路径。
 
-[下载 v0.2.1](https://github.com/KarmenLoop/skill-project-plan/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考（英文）](docs/INPUT.md) · [反馈问题](https://github.com/KarmenLoop/skill-project-plan/issues)
+[下载 v0.2.1](https://github.com/KarmenLoop/skill-project-plan/releases/tag/v0.2.1) · [完整教程](docs/tutorial.zh-CN.md) · [输入参考](docs/input.zh-CN.md) · [反馈问题](https://github.com/KarmenLoop/skill-project-plan/issues)
 
 ## 能做什么
 
@@ -41,7 +41,7 @@ python3 install.py --host agents
 
 增加并行工作，比较其结束时间与关键路径；再尝试缺失依赖和循环依赖，理解无效计划为何会在排程前被拒绝。
 
-准备新输入前可查看[字段约定（英文）](docs/INPUT.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
+准备新输入前可查看[字段约定](docs/input.zh-CN.md)。工具只依赖 Python 标准库，本身不需要模型账号、API 密钥或网络。使用 AI 宿主时，宿主有自己的数据与权限设置。
 
 ## 常见问题
 
@@ -52,7 +52,7 @@ python3 install.py --host agents
 ## 文档与支持
 
 - [下载、安装、配置、练习、升级与卸载](docs/tutorial.zh-CN.md)
-- [输入输出约定](docs/INPUT.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
+- [输入输出约定](docs/input.zh-CN.md)与[兼容性说明](docs/COMPATIBILITY.md)（英文参考）
 - [更新记录](CHANGELOG.md)、[参与贡献](CONTRIBUTING.md)、[支持](SUPPORT.md)和[安全反馈](SECURITY.md)
 
 ## 许可证
